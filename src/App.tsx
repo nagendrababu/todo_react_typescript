@@ -7,8 +7,7 @@ interface ITodo {
 export default function App() {
   const [inputValue, setInputValue] = useState<string>("");
   const [todoItems, setTodoItems] = useState<ITodo[]>([]);
-  return;
-  <div className="App">
+  return <div className="App">
     <div>
       <h1>Hello CodeSandbox</h1>
       <input
